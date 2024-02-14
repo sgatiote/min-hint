@@ -21,9 +21,10 @@ Simply clone the repository or download the source files and include them in you
 #include "min/hint/hint.h"
 #include <stdio.h>
 
-int main() {
-    char *text = "Hello, World!";
-    char *coloured_text = hintColour(text, HINT_COLOUR_RED);
+int main()
+{
+    char * text = "Hello, World!";
+    char * coloured_text = hintColour(text, HINT_COLOUR_RED);
     printf("%s\n", coloured_text);
     free(coloured_text);
     return 0;
