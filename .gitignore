@@ -1,3 +1,9 @@
+.vs/
+.vscode/
+.cache/
+object/
+lib/
+
 # Prerequisites
 *.d
 
